@@ -21,7 +21,6 @@
     font-style: normal;
 }
 
-
 @font-face {
     font-family: 'ProximaNovaSemibold';
     src: url('../fonts/ProximaNovaSemibold.eot');
@@ -795,8 +794,6 @@ img {
 
 // =============================== header ===============================
 
-
-
 .section-header {
     @include burger-menu();
 
@@ -1550,13 +1547,10 @@ img {
 
     }
 
-
-
 }
 
 
 // =============================== / search ===============================
-
 
 
 // =============================== categories ===============================
@@ -1564,8 +1558,6 @@ img {
 .section-categories {
     padding-top: 40px;
     padding-bottom: 40px;
-
-    .section-inner {}
 
     .categories {
         display: flex;
@@ -1580,10 +1572,6 @@ img {
             flex-wrap: wrap;
 
             justify-content: space-between;
-
-
-
-
         }
 
 
@@ -1602,9 +1590,6 @@ img {
                 box-shadow: 3px 3px 20px rgba(50, 50, 50, 0.25);
                 cursor: pointer;
             }
-
-
-
         }
 
         &__links {
@@ -1624,17 +1609,11 @@ img {
                 font-size: 20px;
                 padding-bottom: 5px;
 
-
             }
-
-
-
             &-link {
                 color: $color-gray;
                 position: absolute;
                 bottom: 5px;
-
-
             }
 
             &-icon {
@@ -1732,18 +1711,10 @@ img {
 
             }
         }
-
     }
-
-
-
-
 }
 
 // ============================ / categories ============================
-
-
-
 
 
 // ============================ popular ============================
@@ -1753,24 +1724,9 @@ img {
     @include popular();
     margin-top: 16vh;
     margin-bottom: 16vh;
-
-
-
-
-
-
-
 }
 
-
-
-
-
-
-
-
 // ============================ / popular ============================
-
 
 
 // ============================  banner ============================
@@ -1805,7 +1761,6 @@ img {
 // ============================ / banner ============================
 
 
-
 // ============================ suggestion ===============================
 
 .section-suggestion {
@@ -1813,10 +1768,6 @@ img {
 
     margin-top: 16vh;
     margin-bottom: 16vh;
-
-    .section-inner {}
-
-
 }
 
 
@@ -2025,19 +1976,12 @@ img {
             margin-bottom: 20px;
         }
 
-
-
         &__form--title {
             text-align: left;
             font-size: 17px;
             line-height: 20px;
             width: 30vw;
             margin: 0 auto 3vh;
-
-
-
-
-
 
             &__sections-title {
                 width: 100%;
@@ -2048,20 +1992,10 @@ img {
                 padding-bottom: 14px;
                 color: #7f7f7f;
             }
-
-
-
-
-
-
         }
 
     }
 }
-
-
-
-
 
 // ============================ / footer ============================
 
