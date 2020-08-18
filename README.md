@@ -52,10 +52,6 @@ Test website. Three page site for auto parts store.
    
    ![Screen Shot 2020-08-18 at 5 31 34 PM](https://user-images.githubusercontent.com/55539864/90527017-bdcf6700-e179-11ea-96cd-cad498704ce1.png)
 
-   >***Fixed burger menu***
-   
-
-![Screen Shot 2020-08-18 at 10 52 54 PM](https://user-images.githubusercontent.com/55539864/90558984-9a221600-e1a5-11ea-954b-b79381100ff7.png)
 
 
 
