@@ -54,14 +54,16 @@ Test website. Three page site for auto parts store.
 
    >***Fixed burger menu***
    
-![menu](https://user-images.githubusercontent.com/55539864/90521288-0e8f9180-e173-11ea-8635-ab31167ab7ac.gif)
+
+![Screen Shot 2020-08-18 at 10 52 54 PM](https://user-images.githubusercontent.com/55539864/90558984-9a221600-e1a5-11ea-954b-b79381100ff7.png)
+
 
 
 
 
 ### **Mobile**: 
-   >***Tab***    
-![tab](https://user-images.githubusercontent.com/55539864/90524476-c5d9d780-e176-11ea-867f-74de8934f174.gif)
+![Screen Shot 2020-08-18 at 10 51 41 PM](https://user-images.githubusercontent.com/55539864/90558857-6ba43b00-e1a5-11ea-961b-88e57ed818c0.png)
 
   >***Filters***   
 ![Screen Shot 2020-08-18 at 5 32 16 PM](https://user-images.githubusercontent.com/55539864/90526969-b14b0e80-e179-11ea-873a-dff3bbc5850b.png)
+
