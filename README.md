@@ -13,8 +13,6 @@ Test website. Three page site for auto parts store.
   - Media queries
   - CSS-transform
   
-   
-2. Implement a fixed burger menu
 
 
 
