@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="description" content="Интернет-магазин Автозапчестей. Главная страница">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Интернет-магазин Автозапчастей: Главная</title>
 
   <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
@@ -32,11 +32,12 @@
             <a class="logo">
               <img src="img/logo.svg" alt=" Логотип Интернет-магазина Автозапчастей">
             </a>
+            
 
-            <!---------------------------------- menu mobile ----------------------------------->
+           <!--   -------------------------------- menu mobile ----------------------------------->
 
             <a class="menu-toggle rounded" href="#">
-              <i class="fa fa-bars fa-3x"></i>
+              <i class="fa fa-bars fa-2x"></i>
             </a>
             <nav id="sidebar-wrapper">
               <ul class="sidebar-nav">
@@ -67,7 +68,7 @@
                 <li class="sidebar-nav-item">
                   <a class="js-scroll-trigger" href="#">
                     <i class="fa fa-dollar "></i>
-                     Акции
+                    Акции
                   </a>
                 </li>
                 <li class="sidebar-nav-item">
@@ -78,8 +79,12 @@
                 </li>
 
               </ul>
-            </nav>
-            <a class="address" href="#"><i class="fa fa-location-arrow">Санкт-Петербург, ул Большая Конюшенная, д&nbsp;19</i></a>
+
+            
+            </nav> 
+
+            <a class="address" href="#"><i class="fa fa-location-arrow">Санкт-Петербург, ул Большая Конюшенная,
+                д&nbsp;19</i></a>
             <ul class="user-nav">
               <li class="user-nav__item">
                 <a class="user-nav__link user-nav__link--favorites" href="#">
@@ -276,11 +281,6 @@
                 <input type="search" placeholder="Введите марку автомобиля" id="search-brand-input" name="search-input"
                   required="">
               </div>
-              <button class="section-search__panel-btn" type="submit">
-                <span class="section-search__panel--vh-mobile">
-                  <i class="fa fa-search"></i>
-                </span>
-              </button>
             </div>
           </form>
         </div>
@@ -858,16 +858,9 @@
         <div class="section-footer--title">
           Подпишитесь на нашу рассылку <br> и узнавайте о акциях быстрее
         </div>
-        <form action="#" method="get">
-          <div class="section-footer__form-row">
-            <label class="visually-hidden" for="email">
-              Введите ваш e-mail:
-            </label>
-            <input type="email" name="email" id="email" placeholder="Ваш e-mail" required="">
-            <button class="form-btn" type="submit" name="button">
-              <i class="fa fa-paper-plane"></i>
-            </button>
-          </div>
+        <form>
+          <input type="email" placeholder="Email Address">
+          <input type="submit" value="Subscribe">
         </form>
         <div>
           <p class="section-footer__title--not-mobile">

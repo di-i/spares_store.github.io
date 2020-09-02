@@ -513,9 +513,9 @@
         height: 100vh;
         transition: all 0.4s ease 0s;
         transform: translateX(-100vw);
-        background: rgba(255, 255, 255, 0.9);
+        background: linear-gradient(93.82deg, #9710e9 1.17%, #fd8d43 99.31%);
         border-right: 1px solid rgba(255, 255, 255, 0.1);
-        top: 20vh;
+        top: 10vh;
 
         @media (max-width: $screen-xs-max) {
             top: 7vh;
@@ -547,7 +547,7 @@
     .sidebar-nav li.sidebar-nav-item a {
         display: block;
         text-decoration: none;
-        color: #5f6063;
+        color: #fff;
         padding: 3vh 2vw;
         font-weight: 500;
         margin-right: 3vw;
@@ -555,6 +555,7 @@
         margin-right: 3vw;
         width: 30vw;
         font-size: 16px;
+        text-align: center;
 
         @media (max-width: $screen-xs-max) {
             width: 50vw;
@@ -563,8 +564,10 @@
     }
 
     .fa {
-        color: lightgray;
-        margin-right: 2vw;
+        color: #fff;
+        padding-right: 2vw;
+        text-align: left;
+
     }
 
     .sidebar-nav li a:hover {
@@ -614,23 +617,28 @@
 
     .menu-toggle {
         position: fixed;
-        left: 12vh;
-        top: 18vh;
+        left: 0;
+        top: 0;
         text-align: center;
         text-decoration: none;
         background: transparent;
         line-height: 50px;
         z-index: 60;
         outline: none;
+        background-color: #fd8d43;
+        width: 60px;
 
         .fa-bars {
-            color: #a9a9a9;
+            color: #ffffff;
+
             z-index: 60;
         }
 
         .fa {
-            margin-right: 3vw;
-            margin-top: 3vh;
+            margin-left: 10px;
+
+
+
         }
 
         @media (max-width: $screen-xs-max) {
@@ -798,7 +806,7 @@ img {
     @include burger-menu();
 
     .section-inner {
-        display: static;
+
 
 
         @media (max-width: $screen-lg-max) {
@@ -824,16 +832,12 @@ img {
         padding-bottom: 0;
     }
 
-.address {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    font-size: 20px;
-}
-
-
-
-
+    .address {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        font-size: 20px;
+    }
 
     .user-nav {
         margin: 0;
@@ -902,6 +906,7 @@ img {
 
 
 
+
         @media (max-width: 1023px) {
             align-items: center;
             margin-left: auto;
@@ -929,6 +934,7 @@ img {
     }
 
     @media (max-width: $screen-xs-max) {
+
         a {
             padding: 4vh 0 4vh 0;
             font-size: 12px;
@@ -1096,6 +1102,7 @@ img {
             height: auto;
         }
     }
+
 }
 
 
@@ -1410,6 +1417,7 @@ img {
         display: none;
     }
 }
+
 // =============================== / promo ===============================
 
 
@@ -1503,10 +1511,12 @@ img {
         &-input {
             flex: 1;
 
+
             input {
                 width: 100%;
                 background-color: $color-lightgray;
                 padding: 10px 20px;
+
 
                 &::placeholder {
                     font-size: 16px;
@@ -1521,29 +1531,7 @@ img {
 
         }
 
-        button {
-            padding: 1vh 2vw;
-            background-color: $color-orange;
-            text-transform: uppercase;
-            color: white;
-            font-family: $font-second;
-            font-size: 14px;
-            outline: none;
 
-            &:hover {
-                transform: scale(1.08);
-                transition: 0.3s;
-            }
-
-            &:active {
-                color: rgba(255, 255, 255, 0.8)
-            }
-
-
-
-        }
-
-        &--vh-mobile {}
 
     }
 
@@ -1610,6 +1598,7 @@ img {
                 padding-bottom: 5px;
 
             }
+
             &-link {
                 color: $color-gray;
                 position: absolute;
@@ -1811,54 +1800,30 @@ img {
 
 
     form {
+        display: flex;
+        flex-wrap: wrap;
 
+        &>input {
+            flex: 1 1 10ch;
+            margin: .5rem;
 
-        &:hover {
-            transform: scale(1.02);
-            transition: 0.3s;
-
-        }
-
-        &:active {
-            box-shadow: 3px 3px 20px rgba(50, 50, 50, 0.25);
-
-        }
-
-        input {
-            background-color: white;
-            padding: 1.3vh 2vw;
-            width: 50vw;
-
-            &:hover {
-                opacity: 0.8;
-            }
-
-            &:active {
-                opacity: 0.6;
+            &[type="email"] {
+                flex: 3 1 30ch;
             }
         }
+    }
 
-        button {
-            background-color: $color-orange;
-            margin-right: 2vw;
-            padding: 1.5vh 2vw;
+    input {
+        border: none;
+        background: hsl(0 0% 93%);
+        border-radius: .25rem;
+        padding: .75rem 1rem;
+
+        &[type="submit"] {
+            background: hotpink;
             color: white;
-            font-size: 11px;
-            font-weight: 600;
-            text-transform: uppercase;
-            line-height: 13px;
-
-            letter-spacing: 0.12em;
-
-            &:hover {
-                opacity: 0.8;
-            }
-
-            &:active {
-                opacity: 0.6;
-            }
+            box-shadow: 0 .75rem .5rem -.5rem hsl(0 50% 80%);
         }
-
     }
 
 
@@ -1998,5 +1963,3 @@ img {
 }
 
 // ============================ / footer ============================
-
-
